@@ -102,7 +102,7 @@ class Game{
             
         }
 
-        if(player.score>=10){
+        if(player.score>=300){
             gameoverMusic.play();
             gameState=2;
             player.rank=player.rank+1;
